@@ -1,0 +1,38 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    line-height: 1.4;
+
+   
+    position: relative;
+    
+  }
+
+  body.show {
+    transform: translateX(-350px);
+    
+   }
+   
+   a {
+     color: $clr-dark;
+     text-decoration: none;
+   }
+   
+   p {
+     margin-bottom: 1rem;
+   }
+   
+   h1,h2,h3,h4,h5,h6 {
+     font-weight: bold;
+    //  span {
+    //    color: $clr-primary;
+    //  }
+   }
+
+
+   

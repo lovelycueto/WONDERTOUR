@@ -1,0 +1,29 @@
+@mixin grid($cols:1, $gap:1rem){
+    display: grid;
+    grid-template-columns: repeat($cols, 1fr);
+    grid-gap: $gap;
+}
+
+@mixin mediaQuery($width:48rem) {
+   @media screen and (min-width:$width){
+    @content
+   }
+}
+
+@mixin imgFit($width: 1px, $height: 1px) {
+    width: $width;
+    height: $height;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  @mixin imgFit($width: 1px, $height: 1px) {
+    width: $width;
+    height: $height;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+
+
+
